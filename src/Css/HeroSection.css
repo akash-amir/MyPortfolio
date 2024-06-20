@@ -116,6 +116,12 @@ button:hover{
     
     
 }
+@media (max-width:344px) {
+    .social-media-links li{
+        font-size: 20px;
+    }
+    
+}
 @media (max-width:500px) {
     .firstsection div{
         margin: 0px;
