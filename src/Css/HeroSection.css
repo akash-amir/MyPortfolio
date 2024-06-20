@@ -58,15 +58,18 @@ button:hover{
     display: none;
 }
 .social-media-links ul{
+    margin-right: 18px;
+    justify-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     align-items: center;
-    column-gap: 40px;
+    column-gap: 18px;
 
 }
 .social-media-links li{
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
+    justify-content: center;
 }
 .divider {
     display: block;
