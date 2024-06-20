@@ -36,7 +36,7 @@ function Project() {
             <div className='overlay'>
               <p>{item.Name}</p>
               <p>{item.Detail}</p>
-              <p><a href={item.Link}>{item.Link}</a></p>
+              <p><a href={item.Link}>Link</a></p>
             </div>
             </div>
         )
