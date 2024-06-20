@@ -1,0 +1,140 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+    
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+
+}
+a:hover{
+    text-decoration: underline;
+    color:skyblue;
+    transition: all 0.4s ease;
+}
+.logo h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee,#8d8888);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Brush Script MT cursive";
+}
+.logo h2 span{
+    font-size: 3.5rem;
+}
+.nav-main{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color:rgba(0, 0, 0);
+    grid-template-columns: 100px 1fr 2fr 1fr 100px;
+    box-shadow: 0px 5px 20px rgba(255, 253, 253, 0.251);
+    
+}
+.logo{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+}
+.menu-link{
+    grid-column: 3/4;
+}
+.menu-link ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    align-items: center;
+}
+.social-media{
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.social-media ul{
+    height:100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Hamburger{
+    display: none;
+}
+@media (max-width:1080px) 
+{
+    .nav-main{
+        height: 80px;
+        grid-template-columns: 20px 3fr 3fr 1fr 20px;
+    }
+
+    .logo,
+    .menu-link ul,
+    .social-media ul{
+        height: 80px;
+    }
+    
+}
+@media (max-width:998px) 
+{
+    .nav-main{
+        height: 70px;
+        grid-template-columns: 20px 3fr 3fr 1fr 20px;
+    }
+   .logo{
+    height: 70px;
+   }
+    .menu-link ul,
+    .social-media ul{
+        display: none;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media .Hamburger{
+        display: block;
+        font-size: 25px;
+
+    }
+  
+    .mobile-menu-link {
+        position: fixed;
+        top: 70px; 
+        left: 0;
+        right: 0;
+        background-color:black;
+        box-shadow: 0px 15px 20px rgba(205, 198, 198, 0.274);
+        display: flex; 
+        align-items: start;
+        flex-direction: column;
+        z-index: 99;
+        padding: 10px 0;
+    }
+    .mobile-menu-link ul {
+        display: flex;
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+
+    }
+    .mobile-menu-link ul li {
+        margin: 10px 0;
+        
+    }
+
+}
