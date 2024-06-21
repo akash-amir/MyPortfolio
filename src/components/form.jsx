@@ -69,7 +69,7 @@ function Form() {
   return (
     <>
       <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
+        <label>Your Name:</label>
         <input
           type="text"
           name="from_name"
@@ -78,7 +78,7 @@ function Form() {
         />
         {errors.from_name && <span className="error">{errors.from_name}</span>}
 
-        <label>Email</label>
+        <label>Your Email:</label>
         <input
           type="email"
           name="from_email"
