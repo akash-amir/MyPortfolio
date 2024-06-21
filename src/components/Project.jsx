@@ -14,7 +14,7 @@ function Project() {
     {
         Name : "Tic Tac Toe",
         Detail : "Tic Tac Toe using JavaScrpt",
-        Link : "Link",
+        Link : "https://tic-tac-toe-zeta-nine-45.vercel.app/",
         image: TicTac
     },
     {
