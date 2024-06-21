@@ -13,6 +13,9 @@ function Herosection(){
         link.download = 'Akash.pdf';
         link.click();
     };
+    const visitGitHub = () => {
+        window.open('https://github.com/akash-amir', '_blank', 'noopener,noreferrer');
+    };
    
     return(
         <>
@@ -21,7 +24,7 @@ function Herosection(){
                 <div className='Second'>
                 <p>Hi,My name is <span className='title'>Akash</span><br></br>and I am passionate<br></br><span className='title'>{text}</span></p>
                 <button onClick={downloadResume}>Download Resume</button>
-                <button>Visit GitHub</button>
+                <button onClick={visitGitHub}>Visit GitHub</button>
                 <div className= "social-media-links " >
                 <ul>
                 <li><a href="https://www.facebook.com/akash.amir.524?mibextid=ZbWKwL" target='blank'><FaFacebookSquare></FaFacebookSquare></a></li>
