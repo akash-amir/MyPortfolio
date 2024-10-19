@@ -5,20 +5,7 @@ return(
     <>
     <h1 id='About' className="heading">About Me</h1>
     <div className='about'>
-    <p > As a 7th-semester Bachelor of
- Computer Science student, my objective
- is to secure an internship position in a
- dynamic and innovative software
- company. I am eager to contribute my
- knowledge and passion for web
- development to a challenging working
- environment that fosters continuous
- learning and encourages professional
- growth. By collaborating with the
- company's team, I aim to leverage my
- skills and dedication to propel both
- myself and the organization forward in
- the software engineering industry.</p>
+    <p > Hi! I'm [Your Name], a passionate and creative web developer with a strong focus on delivering high-quality, responsive websites. With a background in creating seamless user experiences, I specialize in designing and building functional, intuitive websites for small businesses, especially in the GYM and fitness industry.</p>
  </div>
     </>
 )
