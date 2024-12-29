@@ -3,6 +3,9 @@ import '../Css/Project.css';
 import Amazon from '../assets/amazon.png';
 import TicTac from '../assets/tictactoe.png';
 import virtual from '../assets/Virtual.png';
+import gym from '../assets/gym.png';
+import Home from '../assets/homyz.png';
+
 
 function Project() {
     const projectData =[{
@@ -23,6 +26,18 @@ function Project() {
         Link : "Link",
         image: virtual
     },
+    {
+      Name : "The Fit Club",
+      Detail : "The Fit Club using Reactjs",
+      Link : "https://gym-frontend.pages.dev/ ",
+      image: gym
+  },
+  {
+    Name : "Homyz",
+    Detail : "Homyz using Reactjs",
+    Link : "https://real-estate-frontend-cfm.pages.dev/",
+    image: Home
+},
 ]
   return (
     <>
